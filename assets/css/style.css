@@ -1,0 +1,22 @@
+* {
+  margin: 0%;
+}
+
+header {
+  height: 180px;
+  background-position: center;
+  background-color: #4EA1FF;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.banner {
+  height: 180px;
+  background-image: url(../img/pattern.png)
+}
+
+.logo {
+  margin-top: 6%;
+  height: 100px;
+  width: 300px;
+}
