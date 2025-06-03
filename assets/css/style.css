@@ -2,12 +2,22 @@
   margin: 0%;
 }
 
+ul {
+  margin-left: 0%;
+  list-style: none;
+}
+
+strong {
+  color: #379ACF;
+}
+
 header {
   height: 180px;
-  background-position: center;
+  background-position: absolute;
   background-color: #4EA1FF;
   background-repeat: repeat;
   background-size: contain;
+
 }
 
 .banner {
@@ -16,7 +26,22 @@ header {
 }
 
 .logo {
-  margin-top: 6%;
+  position: inherit;
+  margin-top: 4%;
   height: 100px;
   width: 300px;
+}
+
+.headline {
+  margin-left: 1%;
+  font-size: larger;
+  color: #8C8C8C;
+}
+
+.image-box {
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 48px;
 }
