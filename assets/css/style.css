@@ -3,11 +3,15 @@
 }
 
 table {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
   border-collapse: collapse;
 }
 
 h1 {
   font-size: 48px;
+  font-weight: bolder;
 }
 
 strong {
@@ -75,4 +79,42 @@ header {
 
 .second-p {
   margin-top: 25px;
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+b {
+  color: #8C8C8C;
+}
+
+/*.caption {
+  color: #ffffff;
+  background-image: url('../img/monitor.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;*/
+
+.foot-image-box1 {
+  margin-top: 15px;
+  background-image: url('../img/monitor.jpg');
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  height: 250px;
+}
+
+.foot-image-box2 {
+  margin-top: 15px;
+  background-image: url(' ../img/graph.jpg');
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  height: 250px;
+}
+
+.caption {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
