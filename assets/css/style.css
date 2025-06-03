@@ -2,9 +2,12 @@
   margin: 0%;
 }
 
-ul {
-  margin-left: 0%;
-  list-style: none;
+table {
+  border-collapse: collapse;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 strong {
@@ -12,7 +15,6 @@ strong {
 }
 
 header {
-  height: 180px;
   background-position: absolute;
   background-color: #4EA1FF;
   background-repeat: repeat;
@@ -21,27 +23,56 @@ header {
 }
 
 .banner {
-  height: 180px;
   background-image: url(../img/pattern.png)
 }
 
 .logo {
-  position: inherit;
-  margin-top: 4%;
+  margin-left: 15px;
+  margin-top: 80px;
   height: 100px;
   width: 300px;
 }
 
 .headline {
-  margin-left: 1%;
-  font-size: larger;
+  margin-left: 10px;
+
+}
+
+.subtitles {
+  font-size: 16px;
   color: #8C8C8C;
 }
 
 .image-box {
-  margin-top: 2%;
+  margin-top: 30px;
 }
 
-h1 {
-  font-size: 48px;
+.highlighted {
+  background-color: #FDFF00;
+}
+
+.p-list {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.list {
+  margin-top: 25px;
+}
+
+.table-p {
+  margin-left: 10px;
+}
+
+.table-head {
+  background-color: #1FAAE6;
+  color: white;
+}
+
+.firstandthird-line {
+  background-color: #B1E6F2
+}
+
+.second-p {
+  margin-top: 25px;
 }
