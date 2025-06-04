@@ -2,12 +2,6 @@
   margin: 0;
 }
 
-table {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 25px;
-  border-collapse: collapse;
-}
 
 p {
   padding-bottom: 20px;
@@ -62,17 +56,29 @@ header .logo {
 }
 
 /*/utility*/
-.list {
+/*List*/
+ul {
   padding-left: 0%;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
-
-.table-p {
-  margin-left: 10px;
+.p-list {
+  padding-left: 0%;
+  margin-left: 15px;
 }
 
-.table-head {
+/*/list*/
+
+
+/*tabella*/
+table {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  border-collapse: collapse;
+}
+
+thead {
   background-color: #1FAAE6;
   color: white;
 }
@@ -80,6 +86,12 @@ header .logo {
 .firstandthird-line {
   background-color: #B1E6F2
 }
+
+.text {
+  width: 50%;
+}
+
+/*/tabella*/
 
 .second-p {
   margin-top: 25px;
@@ -94,7 +106,7 @@ footer {
 /*main*/
 
 /*footer*/
-h4 {
+footer h3 {
   color: #8C8C8C;
 }
 
@@ -116,8 +128,9 @@ h4 {
 
 .caption {
   font-size: 20px;
-  font-weight: bold;
-  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
 }
 
 /*/footer*/
