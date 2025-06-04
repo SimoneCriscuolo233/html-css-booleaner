@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+ul {
+  padding-left: 0%;
+  margin-left: 15px;
+}
 
 p {
   padding-bottom: 20px;
@@ -12,9 +16,6 @@ h1 {
   font-weight: bolder;
 }
 
-.name {
-  color: #379ACF;
-}
 
 /*Header*/
 header {
@@ -25,16 +26,22 @@ header {
   background-size: 30%;
 }
 
+
 header .logo {
   width: 200px;
 }
 
 /*/header*/
 
+
 /*main*/
 .headline {
   margin-left: 10px;
 
+}
+
+.name {
+  color: #379ACF;
 }
 
 .date {
@@ -56,11 +63,8 @@ header .logo {
 }
 
 /*/utility*/
+
 /*List*/
-ul {
-  padding-left: 0%;
-  margin-left: 15px;
-}
 
 .p-list {
   padding-left: 0%;
