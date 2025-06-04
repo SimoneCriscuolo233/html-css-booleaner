@@ -1,5 +1,5 @@
 * {
-  margin: 0%;
+  margin: 0;
 }
 
 table {
@@ -9,41 +9,46 @@ table {
   border-collapse: collapse;
 }
 
+p {
+  padding-bottom: 20px;
+}
+
 h1 {
   font-size: 48px;
   font-weight: bolder;
 }
 
-strong {
+.name {
   color: #379ACF;
 }
 
+/*Header*/
 header {
-  background-position: absolute;
+  padding-left: 20px;
+  padding-top: 40px;
   background-color: #4EA1FF;
-  background-repeat: repeat;
-  background-size: contain;
-
+  background-image: url(../img/pattern.png);
+  background-size: 30%;
 }
 
-.banner {
-  background-image: url(../img/pattern.png)
+header .logo {
+  width: 200px;
 }
 
-.logo {
-  margin-left: 15px;
-  margin-top: 80px;
-  height: 100px;
-  width: 300px;
-}
+/*/header*/
 
+/*main*/
 .headline {
   margin-left: 10px;
 
 }
 
+.date {
+  font-size: .8em;
+}
+
 .subtitles {
-  font-size: 16px;
+  font-size: .8em;
   color: #8C8C8C;
 }
 
@@ -51,18 +56,17 @@ header {
   margin-top: 30px;
 }
 
+/*utility*/
 .highlighted {
   background-color: #FDFF00;
 }
 
-.p-list {
+/*/utility*/
+.list {
+  padding-left: 0%;
   margin-left: 10px;
-  margin-top: 25px;
 }
 
-.list {
-  margin-top: 25px;
-}
 
 .table-p {
   margin-left: 10px;
@@ -87,15 +91,12 @@ footer {
   margin-left: 10px;
 }
 
-b {
+/*main*/
+
+/*footer*/
+h4 {
   color: #8C8C8C;
 }
-
-/*.caption {
-  color: #ffffff;
-  background-image: url('../img/monitor.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;*/
 
 .foot-image-box1 {
   margin-top: 15px;
@@ -118,3 +119,5 @@ b {
   font-weight: bold;
   text-align: center;
 }
+
+/*/footer*/
